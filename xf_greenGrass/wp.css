@@ -1,0 +1,66 @@
+.navigation {
+padding-top:10px;
+
+}
+
+.navigation a {
+padding-top:10px;
+color:#000;
+}
+.navigation a:hover {
+padding-top:10px;
+color:#999;
+}
+.entry, .entrytext {
+text-align:justify;
+}
+
+textarea {
+width: 380px;
+}
+.post h2 span {
+display: none;
+}
+.post small {
+text-transform:uppercase;
+}
+.post a {
+font-size:11px;
+color:#000;
+text-transform:uppercase;
+font-weight:bold;
+text-decoration:none;
+}
+.post a:hover {
+color:#999;
+text-transform:uppercase;
+font-weight:bold;
+text-decoration:none;
+}
+
+#contentArray h3, #content h3 {
+font-size:13px;
+color:#999;
+text-transform:uppercase;
+}
+#contentArray a, #content a {
+font-size:11px;
+text-transform:uppercase;
+}
+
+#commentform input {
+padding:3px;
+border: 1px solid #999;
+background: #ececec;
+}
+#commentform textarea {
+padding:3px;
+border: 1px solid #999;
+background: #ececec;
+}
+
+#post-10 p {
+font-size:120%;
+padding: 10px;
+background: #ececec;
+}

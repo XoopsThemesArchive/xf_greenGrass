@@ -1,0 +1,116 @@
+/* 
+Theme Name: xf_greenGrass
+Theme URI: http://hokamp.info
+Description: Mein Lieblings-XOOPS-Theme, hier: Zweispaltig
+Version: 1.0
+Author: Michael Hokamp 
+Author URI: http://hokamp.info from destination http://xoopsfactory.com
+*/
+
+#blockleft ul {
+list-style-type:none;
+margin:0;
+padding: 10px; 
+padding-left:0;
+}
+
+#blockleft li, #mainmenu a, #usermenu a {
+display:block;
+}
+
+#blockleft li a, #mainmenu a, #usermenu a {
+font-weight:normal;
+font-size: 11px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft li a:hover, #mainmenu a:hover, #usermenu a:hover {
+font-weight:bold;
+font-size: 11px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft li a.submenu {
+font-weight:normal;
+color: #fc0;
+font-size: 11px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft span {
+font-weight:normal;
+font-size: 11px;
+text-decoration:none;
+color: #fc0;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft input {
+border :1px solid #666;
+padding: 2px;
+}
+
+div.ltitle {
+padding: 0px;
+width: 190px;
+background : #6b6b6b;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 1px solid #fff;
+}
+
+div.ltitle h3 {
+color: #fff;
+text-transform:uppercase;
+font-size: 11px;
+background: url(images/onl.gif) no-repeat left center;
+padding: 2px;
+padding-left: 26px;
+}
+
+div.lblockcontent {
+color: #000;
+padding: 10px;
+font-size: 12px;
+background : #cc9;
+margin-bottom: 0px;
+}
+
+div.lblockcontent a {
+color: #000;
+font-weight: bold;
+}
+
+div.lblockcontent a:hover {
+color: #fff;
+font-weight: bold;
+}
+
+div.lblockcontent b {
+color: #fff;
+font-weight: bold;
+}
+/* end left block settings */
+
+.centerblocktitle h3 {
+padding-top: 15px;
+font-size:14px;
+color:#000;
+}
+.centerblockcontent {
+background: url(images/centerlogobg.gif) top right no-repeat;
+text-align:justify;
+}
+
+
+/* This CSS is part of a XOOPS theme from michael [aka studioC] <a href="http://xoopsfactory.com">XOOPS FACTORY</a> */
